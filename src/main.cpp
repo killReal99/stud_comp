@@ -1,8 +1,9 @@
-#include "add.h"
-#include <iostream> // заголовочный файл стандартной библиотеки
+#include<iostream>
+#include "multiply.h"
 
-int main()
-{
-    std::cout << "The sum of 3 and 4 is " << add(3, 4) << '\n';
-    return 0;
+using namespace std;
+
+int main() {
+  int x = 10, y = 5;
+  cout << "Multiplication is " << multiplyTwoNumbers(x, y);
 }
